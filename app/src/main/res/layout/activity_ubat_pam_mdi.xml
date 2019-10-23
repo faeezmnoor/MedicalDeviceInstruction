@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+    android:id="@+id/youtube_player_view1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:videoId="T2xvWIau8lM"
+    app:autoPlay="true"
+    app:showFullScreenButton="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="@string/ubat_pam_mdi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:autoSizeTextType="uniform" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@mipmap/ubatpammdi_foreground2" />
+
+
+</LinearLayout>
